@@ -7,7 +7,8 @@
 //
 
 import UIKit
-
+import JTAppleCalendar
 class CalendarHeader: JTAppleCollectionReusableView {
-        
+    @IBOutlet weak var monthLabel: UILabel!
+    @IBOutlet weak var yearLabel: UILabel!
 }
